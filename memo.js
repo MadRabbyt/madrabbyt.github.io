@@ -1,3 +1,5 @@
+function afterLoad() {
+
 document.body.innerHTML='<div id="memo-board">memo-board-div</div>';
 let memoBoard = document.getElementById("memo-board");
 // make a table, even*even or even*odd
@@ -40,3 +42,5 @@ for(let i = 0; i < n; i += 1) {
   table += trow;
 }
 memoBoard.innerHTML = table;
+
+} // afterLoad function
